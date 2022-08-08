@@ -1,0 +1,50 @@
+@import '_variables.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: $color_one
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: $color_one;
+}
+
+
+.bloco1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $color_two
+}
+
+.bloco2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $color_three
+}
+
+
+.bloco3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $color_four
+}
